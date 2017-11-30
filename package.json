@@ -1,7 +1,7 @@
 {
-  "name": "babel-minify-webpack-plugin",
+  "name": "babel7-minify-webpack-plugin",
   "version": "0.2.0",
-  "description": "babel-minify plugin for webpack",
+  "description": "For of babel-minify-webpack-plugin for babel7",
   "keywords": [
     "babel",
     "babel-minify",
@@ -14,7 +14,7 @@
     "url": "https://github.com/webpack-contrib/babel-minify-webpack-plugin/issues"
   },
   "license": "MIT",
-  "author": "boopathi",
+  "author": "Florian Mounier forked from author: boopathi",
   "files": [
     "dist"
   ],
@@ -45,16 +45,16 @@
   },
   "pre-commit": "lint-staged",
   "dependencies": {
-    "babel-core": "^6.24.1",
+    "@babel/core": "^7.0.0-beta.32",
     "babel-preset-minify": "^0.2.0",
     "webpack-sources": "^1.0.1"
   },
   "devDependencies": {
-    "babel-cli": "^6.24.1",
+    "@babel/cli": "^7.0.0-beta.32",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0-beta.32",
+    "@babel/polyfill": "^7.0.0-beta.32",
+    "@babel/preset-env": "^7.0.0-beta.32",
     "babel-jest": "^20.0.3",
-    "babel-plugin-transform-object-rest-spread": "^6.23.0",
-    "babel-polyfill": "^6.23.0",
-    "babel-preset-env": "^1.5.1",
     "cross-env": "^5.0.1",
     "del-cli": "^1.1.0",
     "eslint": "^4.1.1",

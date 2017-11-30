@@ -11,7 +11,7 @@
     <img width="200" height="200" vspace="" hspace="25"
       src="https://cdn.rawgit.com/webpack/media/e7485eb2/logo/icon.svg">
   </a>
-  <h1>Babel Minify Webpack Plugin</h1>
+  <h1>Babel7 Minify Webpack Plugin</h1>
   <p>A Webpack Plugin for <a href="https://github.com/babel/minify">babel-minify</a> - A babel based minifier<p>
 </div>
 
