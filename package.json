@@ -1,6 +1,6 @@
 {
   "name": "babel7-minify-webpack-plugin",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "For of babel-minify-webpack-plugin for babel7",
   "keywords": [
     "babel",
