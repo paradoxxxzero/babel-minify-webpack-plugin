@@ -1,5 +1,5 @@
 /* eslint-disable multiline-ternary, no-void */
-import { transform } from 'babel-core';
+import { transform } from '@babel/core';
 import babelPresetMinify from 'babel-preset-minify';
 import { SourceMapSource, RawSource } from 'webpack-sources';
 

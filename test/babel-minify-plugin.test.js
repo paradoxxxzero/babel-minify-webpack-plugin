@@ -4,7 +4,7 @@ import fs from 'fs';
 import webpack from 'webpack';
 import rimraf from 'rimraf';
 import { SourceMapConsumer } from 'source-map';
-import { transform } from 'babel-core';
+import { transform } from '@babel/core';
 import BabelMinifyPlugin from '../src/index';
 
 const buildDir = path.join(__dirname, 'build');
